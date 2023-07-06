@@ -22,7 +22,7 @@ abstract contract StdUtils {
         115792089237316195423570985008687907853269984665640564039457584007913129639935;
 
     // Used by default when deploying with create2, https://github.com/Arachnid/deterministic-deployment-proxy.
-    address private constant CREATE2_FACTORY = 0x4e59b44847b379578588920cA78FbF26c0B4956C;
+    address private constant CREATE2_FACTORY = 0x914d7Fec6aaC8cd542e72Bca78B30650d45643d7;
 
     /*//////////////////////////////////////////////////////////////////////////
                                  INTERNAL FUNCTIONS

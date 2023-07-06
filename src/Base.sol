@@ -10,7 +10,7 @@ abstract contract CommonBase {
     // console.sol and console2.sol work by executing a staticcall to this address.
     address internal constant CONSOLE = 0x000000000000000000636F6e736F6c652e6c6f67;
     // Used when deploying with create2, https://github.com/Arachnid/deterministic-deployment-proxy.
-    address internal constant CREATE2_FACTORY = 0x4e59b44847b379578588920cA78FbF26c0B4956C;
+    address internal constant CREATE2_FACTORY = 0x914d7Fec6aaC8cd542e72Bca78B30650d45643d7;
     // Default address for tx.origin and msg.sender, 0x1804c8AB1F12E6bbf3894d4083f33e07309d1f38.
     address internal constant DEFAULT_SENDER = address(uint160(uint256(keccak256("foundry default caller"))));
     // Address of the test contract, deployed by the DEFAULT_SENDER.
